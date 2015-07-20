@@ -2,7 +2,7 @@
 
 ## Installation
 
-`npm install handwriting`
+`npm install handwriting-node`
 
 ## Documentation
 
@@ -13,7 +13,7 @@ Documentation will come soon.
 Every resource is accessed via your `handwriting` instance:
 
 ```js
-var handwriting = require('handwriting')(' your handwriting.io key ', ' your handwriting.io secret ');
+var handwriting = require('handwriting-node')(' your handwriting.io key ', ' your handwriting.io secret ');
 // handwriting.{ RESOURCE_NAME }.{ METHOD_NAME }
 ```
 

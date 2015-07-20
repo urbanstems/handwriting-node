@@ -1,5 +1,5 @@
 {
-  "name": "handwriting.io",
+  "name": "handwriting-node",
   "version": "0.0.1",
   "description": "Handwriting.io API wrapper",
   "keywords": [

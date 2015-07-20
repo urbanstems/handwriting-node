@@ -1,0 +1,37 @@
+{
+  "name": "handwriting.io",
+  "version": "0.0.1",
+  "description": "Handwriting.io API wrapper",
+  "keywords": [
+    "handwriting",
+    "handwriting.io",
+    "gracious",
+    "eloise",
+    "api"
+  ],
+  "homepage": "https://github.com/urbanstems/handwriting-node",
+  "author": "UrbanStems <chetan@urbanstems.com> (https://urbanstems.com/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/urbanstems/handwriting-node.git"
+  },
+  "bugs:": "https://github.com/urbanstems/handwriting-node/issues",
+  "engines": {
+    "node": ">= v0.10.0"
+  },
+  "main": "lib/handwriting.js",
+  "devDependencies": {
+    "chai": "~1.10.0",
+    "chai-as-promised": "~4.1.1",
+    "mocha": "~2.1.0"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.6",
+    "qs": "^2.4.1",
+    "lodash": "^3.1.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  }
+}

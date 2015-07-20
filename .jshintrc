@@ -1,0 +1,17 @@
+{
+  "node"      : true,
+  "browser"   : true,
+  "jquery"    : true,
+
+  "eqeqeq"    : true,
+  "maxlen"    : 80,
+  "undef"     : true,
+  "unused"    : true,
+  "lastsemic" : true,
+  "indent"    : 2,
+  "latedef"   : "nofunc",
+  "trailing"  : true,
+  "freeze"    : true,
+  "quotmark"  : "single",
+  "boss"      : true
+}

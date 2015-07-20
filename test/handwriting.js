@@ -66,7 +66,7 @@ describe('Handwriting Module', function() {
 
         var defer = Promise.defer();
 
-        handwriting.render.getPdf({
+        handwriting.render.createPdf({
           handwriting_id: 'sdfsdf',
           text: 'This should fail.'
         }, function(err, customer) {

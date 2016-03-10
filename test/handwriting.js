@@ -9,15 +9,6 @@ var handwriting = require('../lib/handwriting')(
 
 var expect = require('chai').expect;
 
-var CUSTOMER_DETAILS = {
-  description: 'Some customer',
-  card: {
-    number: '4242424242424242',
-    exp_month: 12,
-    exp_year: 2015
-  }
-};
-
 describe('Handwriting Module', function() {
 
   // var cleanup = new testUtils.CleanupUtility();

@@ -39,11 +39,11 @@ handwriting.handwritings.list()
 *Where you see `params` it is a plain JavaScript object, e.g. `{ email: 'foo@example.com' }`*
 
  * balance
-  * [`list()`](https://handwriting.io/docs/getting_started/#handwritings)
-  * [`retrieve(params)`](https://handwriting.io/docs/getting_started/#handwritings)
+  * [`list()`](https://handwriting.io/docs/#get-handwritings)
+  * [`retrieve(params)`](https://handwriting.io/docs/#get-handwritings--id-)
  * render
-  * `createPdf(params)`
-  * [`createPng(params)`](https://handwriting.io/docs/getting_started/#render-an-image)
+  * [`createPdf(params)`](https://handwriting.io/docs/#get-render-pdf)
+  * [`createPng(params)`](https://handwriting.io/docs/#get-render-png)
 
 
 ## Development

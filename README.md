@@ -21,24 +21,26 @@ Every resource method accepts an optional callback as the last argument:
 
 ```js
 handwriting.handwritings.list()
-.then(function(handwritings){
-  var thisHandwriting = handwritings[0];
-  return handwriting.render.createPdf({
-    handwriting_id: thisHandwriting.id,
-    text: 'This is a message.\nThis is the next line.'
+  .then(function (handwritings) {
+    var firstHandwriting = handwritings[0]; // choosing the first handwritings
+    return handwriting.render.createPdf({
+      handwriting_id: firstHandwriting.id,
+      text: 'This is a message.\nThis is the next line.'
+    });
+  })
+  .then(function (renderedPdf) {
+    renderedPdf; // the pdf object
+  })
+  .catch(function (err) {
+    err; // err object with reason and status code
   });
-}).then(function(renderedPdf) {
-  renderedPdf; // the pdf object
-}).catch(function(err){
-  err; // err object with reason and status code
-});
 ```
 
 ### Available resources & methods
 
 *Where you see `params` it is a plain JavaScript object, e.g. `{ email: 'foo@example.com' }`*
 
- * balance
+ * handwritings
   * [`list()`](https://handwriting.io/docs/#get-handwritings)
   * [`retrieve(params)`](https://handwriting.io/docs/#get-handwritings--id-)
  * render
